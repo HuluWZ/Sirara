@@ -11,8 +11,13 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors())
 app.use(fileUpload({
+<<<<<<< HEAD
     useTempFiles: true 
 }))
+=======
+    useTempFiles: true
+}));
+>>>>>>> e50002c772cb23f7ff89f3161a27ad204a592fab
 
 const PORT = process.env.PORT 
 
