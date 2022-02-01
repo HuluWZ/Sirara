@@ -24,7 +24,8 @@ const productSchema = new mongoose.Schema({
     },
     content:{
         type: String,
-        required: true
+        required: true,
+        default: process.env.PRODUCTS_DEFAULT_DESCRIPTION
     },
     images:{
         type: Object,
