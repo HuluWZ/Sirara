@@ -46,7 +46,6 @@ function Categories() {
     setCategory(name);
     setOnEdit(true);
   };
-
   const deleteCategory = async (id) => {
     try {
       const res = await axios.delete(`/api/category/${id}`, {
@@ -62,7 +61,7 @@ function Categories() {
   return (
     <div className="categories">
       <form onSubmit={createCategory}>
-        <label htmlFor="category">Category</label>
+        <label htmlFor="category">CATEGORY</label>
         <input
           type="text"
           name="category"
@@ -70,10 +69,8 @@ function Categories() {
           required
           onChange={(e) => setCategory(e.target.value)}
         />
-
         <button type="submit">{onEdit ? "Update" : "Create"}</button>
       </form>
-
       <div className="col">
         {categories.map((category) => (
           <div className="row" key={category._id}>
@@ -92,5 +89,4 @@ function Categories() {
     </div>
   );
 }
-
 export default Categories;
