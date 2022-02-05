@@ -1,13 +1,13 @@
 .categories {
-  max-width: 700px;
+  max-width: 680px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 30px auto;
+  margin: 35px auto;
 }
 .categories form {
-  width: 290px;
-  margin-bottom: 20px;
+  width: 300px;
+  margin-bottom: 25px;
 }
 .categories label {
   display: block;
@@ -33,7 +33,7 @@ button {
   margin-left: 10px;
 }
 .categories .row {
-  min-width: 290px;
+  min-width: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
