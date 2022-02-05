@@ -5,13 +5,13 @@ export default class PaypalButton extends React.Component {
   render() {
     const onSuccess = (payment) => {
       // Congratulation, it came here means everything's fine!
-      console.log("The payment was succeeded!", payment);
+      console.log("You Have Attempted Your Payment Successfuly!", payment);
       // You can bind the "payment" object's value to your state or props or whatever here, please see below for sample returned data
       this.props.tranSuccess(payment);
     };
 
     const onCancel = (data) => {
-      // User pressed "cancel" or close Paypal's popup!
+      // If user pressed cancel.
       console.log("The payment was cancelled!", data);
       // You can bind the "data" object's value to your state or props or whatever here, please see below for sample returned data
     };
@@ -39,9 +39,8 @@ export default class PaypalButton extends React.Component {
     // For production app-ID:
     //   => https://developer.paypal.com/docs/classic/lifecycle/goingLive/
 
-    // NB. You can also have many Paypal express checkout buttons on page, just pass in the correct amount and they will work!
     let style = {
-      size: "small",
+      size: "large",
       color: "blue",
       shape: "rect",
       label: "checkout",
