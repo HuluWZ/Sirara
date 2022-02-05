@@ -43,7 +43,7 @@ function DetailProduct() {
       </div>
 
       <div>
-        <h2>Related products</h2>
+        <h2>Products You May Also Like</h2>
         <div className="products">
           {products.map((product) => {
             return product.category === detailProduct.category ? (
