@@ -70,7 +70,6 @@ function Header() {
                 </li>
 
             </ul>
-
             {
                 isAdmin ? '' 
                 :<div className="cart-icon">
@@ -78,6 +77,7 @@ function Header() {
                     <Link to="/cart">
                         <img src={Cart} alt="" width="30" />
                     </Link>
+               
                 </div>
             }
             
