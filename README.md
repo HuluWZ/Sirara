@@ -1,9 +1,8 @@
 #  Sirara - ሲራራ
-============
 [![GitHub Stars](https://img.shields.io/github/stars/HuluWZ/Sirara.svg)](https://github.com/HuluWZ/Sirara/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/HuluWZ/Sirara.svg)](https://github.com/HuluWZ/Sirara/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/HuluWZ/Sirara)
 
  
-## Simple E-Commerce Website with Node.js,Express, React and Mongo Db for Selling & Buying Several Products
+####  E-Commerce Website with Node.js,Express, React and Mongo Db for Selling & Buying Several Products
 # 🌟 Highlights
 
 ### User- Can Login/ Logout / Register
@@ -30,9 +29,9 @@
 ### Run the React client only
   $ npm run client
 ### Server runs on   🚀 <http://localhost:5000> 
-### client runs on <http://localhost:3000>
+### Client runs on <http://localhost:3000>
 
-# 🖱️ Preview Page
+# 🖱️ Preview 
 ### User Page
 
 ![alt](https://res.cloudinary.com/aastu/image/upload/v1644612716/samples/User_Page2_a5modf.jpg)
@@ -41,15 +40,17 @@
 
 ![alt](https://res.cloudinary.com/aastu/image/upload/v1644612703/samples/Admin_Page_2_yc9b43.jpg)
 
-
 # 💻 Authors
 ### Dagmawi Abate - 
 ![alt](https://github.com/DagmawiAbate)
 
 ### Eyosias Sahlu-
 ![alt](https://github.com/eyoesat)
-### Gashaw Kidanu- ![alt](https://github.com/Gashaw512)
+### Gashaw Kidanu
+![alt](https://github.com/Gashaw512)
 
-### Henok Wondu- ![alt](https://github.com/henokwon)
+### Henok Wondu
+![alt](https://github.com/henokwon)
 
-### Hulunlante Worku- ![alt](https://github.com/HuluWZ)
+### Hulunlante Worku
+![alt](https://github.com/HuluWZ)
