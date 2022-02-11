@@ -10,6 +10,7 @@ const initialState = {
   price: 0,
   content: "Welcome to Sirara.",
   category: "",
+  description:"Start Selling & Buying with Us!",
   _id: "",
 };
 
