@@ -9,10 +9,13 @@ const userCtrl = {
             const {name, email, password} = req.body;
 
             const user = await Users.findOne({email})
-            if(user) return res.status(400).json({msg: "The email already exists."})
+            if (user) return res.status(400).json({ msg: "The email already exists." })
+            // Password Must contain at least one lowercase,uppercase,number and special chars with length of 8
+            var passwordRegex = /(?=.*\d.*)(?=.*[a-zA-Z].*)(?=.*[!#\$%&\?].*).{8,14}$/;
+            const isValidPassword = passwordRegex.test(password);
 
-            if(password.length < 6) 
-                return res.status(400).json({msg: "Password is at least 6 characters long."})
+            if(password.length < 8 || !isValidPassword ) 
+                return res.status(400).json({msg: "Password is at least 8 characters long."})
 
             // Password Encryption
             const passwordHash = await bcrypt.hash(password, 10)
