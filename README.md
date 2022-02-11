@@ -4,36 +4,35 @@
 
  
 ## Simple E-Commerce Website with Node.js,Express, React and Mongo Db for Selling & Buying Several Products
-## 🌟 Highlights
+# 🌟 Highlights
 
--User- Can Login/ Logout / Register
-      - View Products .
-      - Search Products by Name,Time,Price.
-      - Sort Products in ascending and discending order.
-      - Add Products To cart.
-      - Buy Available Products.
+### User- Can Login/ Logout / Register
+ * View Products .
+ * Search Products by Name,Time,Price.
+ * Sort Products in ascending and discending order.
+ * Add Products To cart.
+ * Buy Available Products.
+### Admin -can Login / Logout
+ * Add, Update, Delete Product Type. E.g Electronics,Clothing,Cars.
+ * Add, Update, Delete Product Details like Price , Description, Content and etc.
 
--Admin- can Login / Logout
-       - Add, Update, Delete Product Type. E.g Electronics,Clothing,Cars.
-       - Add, Update, Delete Product Details like Price , Description, Content and etc.
-
-## ⬇️ Installation
- # Clone the repo 
+# ⬇️ Installation
+ ### Clone the repo 
   $ git clone <https://github.com/HuluWZ/Sirara.git>
-# Install dependencies for server 
+### Install dependencies for server 
   $ npm install
-# Install dependencies for client - Go to client (Cd Client)
+### Install dependencies for client - Go to client (Cd Client)
  $  npm install
-# Run the client & server  concurrently
+### Run the client & server  concurrently
   $ npm run dev
-# Run the Express server only
+### Run the Express server only
   $ npm run server
-# Run the React client only
+### Run the React client only
   $ npm run client
-# Server runs on   🚀 <http://localhost:5000> 
-# client runs on <http://localhost:3000>
+### Server runs on   🚀 <http://localhost:5000> 
+### client runs on <http://localhost:3000>
 
-## 🖱️ Preview Page
+# 🖱️ Preview Page
 ### User Page
 
 ![alt](https://res.cloudinary.com/aastu/image/upload/v1644612716/samples/User_Page2_a5modf.jpg)
@@ -42,11 +41,13 @@
 
 ![alt](https://res.cloudinary.com/aastu/image/upload/v1644612703/samples/Admin_Page_2_yc9b43.jpg)
 
-## 💻 Authors
 
-### Dagmawi Abate - ![alt](https://github.com/DagmawiAbate)
+# 💻 Authors
+### Dagmawi Abate - 
+![alt](https://github.com/DagmawiAbate)
 
-### Eyosias Sahlu- ![alt](https://github.com/eyoesat)
+### Eyosias Sahlu-
+![alt](https://github.com/eyoesat)
 ### Gashaw Kidanu- ![alt](https://github.com/Gashaw512)
 
 ### Henok Wondu- ![alt](https://github.com/henokwon)
