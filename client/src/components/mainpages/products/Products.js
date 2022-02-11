@@ -76,8 +76,8 @@ function Products() {
                     return <ProductItem key={product._id} product={product}
                     isAdmin={isAdmin} deleteProduct={deleteProduct} handleCheck={handleCheck} />
                 })
-                }
-            </div>
+            } 
+        </div>
 
         <LoadMore />
         {products.length === 0 && <Loading />}
