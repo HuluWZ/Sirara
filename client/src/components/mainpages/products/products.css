@@ -12,6 +12,7 @@
 .delete-all {
   text-align: right;
   margin: 20px;
+  padding-left: 8em;
 }
 .delete-all input {
   height: 25px;
