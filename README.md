@@ -37,7 +37,7 @@
 # 🖱️  Preview 
 ### User Page
 
-![alt]('https://asset.cloudinary.com/aastusirara/f4d1f9aa02f404ee7b9d9cf09e58e7d7')
+![alt]('https://res.cloudinary.com/aastusirara/image/upload/v1644612716/samples/User_Page2_a5modf.jpg')
 
 ### Admin Page Dashboard
 
