@@ -37,8 +37,8 @@
 # 🖱️  Preview 
 ### User Page
 
-![alt](https://res.cloudinary.com/aastu/image/upload/v1644612716/samples/User_Page2_a5modf.jpg)
+![alt]('https://asset.cloudinary.com/aastusirara/f4d1f9aa02f404ee7b9d9cf09e58e7d7')
 
 ### Admin Page Dashboard
 
-![alt](https://res.cloudinary.com/aastu/image/upload/v1644612703/samples/Admin_Page_2_yc9b43.jpg)
+![alt]('https://asset.cloudinary.com/aastusirara/a9bcc04a4a15db57d900681b0575736c')
